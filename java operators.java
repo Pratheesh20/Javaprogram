@@ -5,15 +5,25 @@ class GUVI
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-	String name="Ahana";
-        String city="Chennai";
-        int age=21;
-        int height=5.1;
-        boolean married=true;
-        char sex='F';
-        double city_population=4828853.00;
- 
-        System.out.println("Name:" +name + "\n City:" +city + "\n Age:" +age + "\n Height:"+height +"\n Married:" +married +"\n Sex:" +sex +"\n City Population:" + city_population);// your code goes here
-	}
+		int  a =2 ,b =4;
+    int c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s;
+    c=a+b;
+    d=a-b;
+    e=a*b;
+    f=b/a;
+    g=b%a;
+    h=b++;
+    i=b--;
+    j=a&b;
+    k=a|b;
+    l=a^b;
+    m=~a;
+    n=a<<2;
+    o=>>2;
+    p=a>>>2;
+    q=a&&b;
+    r=a||b;
+    s=!(a&&b);
+    System.out.println(c+''+d''+e''+f''+g''+h''+i''+j''+k''+l''+m''+n''+o''+p''+q''+r''+s);
 	}
 }
